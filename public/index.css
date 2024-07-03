@@ -8,7 +8,7 @@ body{
 .main
 {
     display: flex;
-    /* justify-content:; */
+    justify-content:space-around;
     width: 100%;
     
 }
@@ -43,26 +43,36 @@ h5
 }
 .login_side
 {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
     background-color: black;
     width:40%;
-    height: 100vh;
+    height: auto;
     padding: 0px 15px;
 
 
 }
-.login
+
+#logbut
 {
     display: flex;
-    justify-content: right;
-    margin: 330px 0px;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    left:70%;
+    gap:100px;
+}
+.login
+{
+    
+    
 }
 .signup
 {
-    display: flex;
+    /* display: flex;
     justify-content: right;
     margin: 330px 0px;
+    padding:300px; */
+    
 }
 .modal
 {

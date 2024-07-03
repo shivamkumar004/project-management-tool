@@ -15,59 +15,78 @@
             <h5>Discover a management tool solution that can help your business succeed.....</h5>
         </div>
         <div class="login_side">
-            <div class="signup">
-                <button onclick="document.getElementById('id02').style.display='block'" class="start">Sign-up</button>
-                <div id="id02" class="modal">
-                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <form class="modal-content animate " method="post" action="#" enctype="multipart/form-data">
-                        <div class="imgcontainer">
-                            <img src="user.jpeg" alt="avatar" class="avatar">
-                        </div>
-                        <div class="container">
-                            <label for="email"><b>E-mail</b></label>
-                            <input type="text" placeholder="Enter e-mail" name="email" id="email" required>
-                            <label for="password"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="password" id="password" required>
-                            <button type="button" id="register" name="register" class="logbut">Sign-up</button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                        </div>
-                        <div class="container1" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-                        </div>
-                    </form>
+            <div id="logbut">
+
+                <div class="signup">
+                    <button onclick="document.getElementById('id02').style.display='block'"
+                        class="start">Sign-up</button>
+                    <div id="id02" class="modal">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+                        <form class="modal-content animate " method="post" action="#" enctype="multipart/form-data">
+                            <div class="imgcontainer">
+                                <img src="user.jpeg" alt="avatar" class="avatar">
+                            </div>
+                            <div class="container">
+                                <label for="email"><b>E-mail</b></label>
+                                <input type="text" placeholder="Enter e-mail" name="email" id="email" required>
+                                <label for="password"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="password" id="password"
+                                    required>
+                                <button type="button" id="register" name="register" class="logbut">Sign-up</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+                            <div class="container1" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="login">
-                <button onclick="document.getElementById('id01').style.display='block'" class="start">Log-in</button>
-                <div id="id01" class="modal">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <form class="modal-content animate" method="post" action="#" enctype="multipart/form-data">
-                        <div class="imgcontainer">
-                            <img src="user.jpeg" alt="avatar" class="avatar">
-                        </div>
-                        <div class="container">
-                            <label for="email"><b>E-mail</b></label>
-                            <input type="text" placeholder="Enter e-mail" id="login_email" name="login_email" required>
-                            <label for="password"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" id="login_password" name="login_password" required>
-                            <button class="logbut" type="button" id="login1" name="login1">Login</button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                        </div>
-                        <div class="container1" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="password"><a href="#">Forgot password</a></span>
-                        </div>
-                    </form>
+
+
+
+                <div class="login">
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        class="start">Log-in</button>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+                        <form class="modal-content animate" method="post" action="#" enctype="multipart/form-data">
+                            <div class="imgcontainer">
+                                <img src="user.jpeg" alt="avatar" class="avatar">
+                            </div>
+                            <div class="container">
+                                <label for="email"><b>E-mail</b></label>
+                                <input type="text" placeholder="Enter e-mail" id="login_email" name="login_email"
+                                    required>
+                                <label for="password"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" id="login_password"
+                                    name="login_password" required>
+                                <button class="logbut" type="button" id="login1" name="login1">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+                            <div class="container1" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                                <span class="password"><a href="#">Forgot password</a></span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+
             </div>
+
+
         </div>
     </div>
 </body>
 <script src="script1.js"></script>
 <script type="module" src="firebase.js"></script>
 <script type="module" src="script.js"></script>
+
 </html>
